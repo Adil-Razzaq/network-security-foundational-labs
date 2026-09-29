@@ -21,11 +21,11 @@ This repository documents foundational network engineering and threat modeling l
 ## Technical Proofs
 
 ### Baseline State (Legitimate Lease)
-![Baseline Network Capture](screenshots/baseline_ipconfig.jpg)
+![Baseline Network Capture](screenshots/baseline_ipconfig.JPG)
 *Client endpoint safely assigned `192.168.1.152` and Gateway `192.168.1.1`.*
 
 ### Hijacked State (Rogue Lease)
-![Rogue Attack Capture](screenshots/rogue_hijack_ipconfig.jpg)
+![Rogue Attack Capture](screenshots/rogue_hijack_ipconfig.JPG)
 *Client endpoint hijacked with malicious IP `10.0.0.102` and Default Gateway `10.0.0.1`.*
 
 ---
