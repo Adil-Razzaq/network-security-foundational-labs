@@ -1,4 +1,4 @@
-# Network Infrastructure & Threat Modeling - Rogue DHCP & Gateway Hijacking
+# Network Infrastructure & Threat Modeling | Rogue DHCP & Gateway Hijacking
 
 ## Overview
 This repository documents foundational network engineering and threat modeling labs built in **Cisco Packet Tracer**. The project demonstrates dynamic network assignment in a standard star-bus topology versus an exploited network environment subjected to a **Rogue DHCP Server / Gateway Hijacking attack**.
@@ -21,11 +21,11 @@ This repository documents foundational network engineering and threat modeling l
 ## Technical Proofs
 
 ### Baseline State (Legitimate Lease)
-![Baseline Network Capture](screenshots/baseline_ipconfig.png)
+![Baseline Network Capture](screenshots/baseline_ipconfig.jpg)
 *Client endpoint safely assigned `192.168.1.152` and Gateway `192.168.1.1`.*
 
 ### Hijacked State (Rogue Lease)
-![Rogue Attack Capture](screenshots/rogue_hijack_ipconfig.png)
+![Rogue Attack Capture](screenshots/rogue_hijack_ipconfig.jpg)
 *Client endpoint hijacked with malicious IP `10.0.0.102` and Default Gateway `10.0.0.1`.*
 
 ---
